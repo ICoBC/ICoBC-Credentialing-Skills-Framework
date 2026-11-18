@@ -1,0 +1,429 @@
+{
+  "id": "https://github.com/ICoBC/icsf",
+  "name": "ICoBC Credentialing Skills Framework (ICSF)",
+  "version": "1.0-draft",
+  "status": "Draft in piloting, as of November 2026",
+  "license": "CC-BY-4.0",
+  "publisher": "International Council on Badges and Credentials e.V. (ICoBC)",
+  "alignmentCodePattern": "ICSF-{SKILL}-L{LEVEL}-{STAGE}",
+  "pillars": [
+    {
+      "name": "Value",
+      "letter": "V",
+      "meaning": "Why a credential is worth issuing, earning and accepting.",
+      "skills": [
+        "STRV",
+        "ECOS",
+        "POLR"
+      ]
+    },
+    {
+      "name": "Rigor",
+      "letter": "R",
+      "meaning": "Whether the claim a credential makes is specified, assessed and aligned soundly.",
+      "skills": [
+        "CRDS",
+        "ASMT",
+        "SKTX",
+        "QUAL"
+      ]
+    },
+    {
+      "name": "Impact",
+      "letter": "I",
+      "meaning": "What credentials change for people, organisations and labour markets, and how that is shown.",
+      "skills": [
+        "IMPT",
+        "TALN",
+        "ADPT"
+      ]
+    },
+    {
+      "name": "Trustworthiness",
+      "letter": "T",
+      "meaning": "Whether credentials, identities, data and systems can be relied on.",
+      "skills": [
+        "STND",
+        "IDWL",
+        "SECP",
+        "PLAT",
+        "AIRC"
+      ]
+    },
+    {
+      "name": "Experience",
+      "letter": "E",
+      "meaning": "Whether earners, assessors and verifiers can use credentials easily and fairly.",
+      "skills": [
+        "EXPR",
+        "INCL"
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "Level": 1,
+      "Name": "Contribute",
+      "Essence": "Works on defined credentialing tasks with guidance. Understands the purpose of badges and credentials in their own context and follows agreed procedures.",
+      "Autonomy": "Works under close direction; asks when unsure.",
+      "Influence": "Own tasks; interacts with immediate colleagues and earners.",
+      "Complexity": "Routine tasks with clear instructions.",
+      "Knowledge": "Basic concepts and terms; knows where to look.",
+      "Typical roles": "Earners, administrators, teaching staff new to badges, recruiters who receive credentials",
+      "SFIA 9 (indicative)": "SFIA 1 to 2",
+      "EQF (indicative)": "EQF 3 to 4"
+    },
+    {
+      "Level": 2,
+      "Name": "Operate",
+      "Essence": "Carries out standard credentialing activities independently under general direction, using established methods, and solves routine problems.",
+      "Autonomy": "Works under general direction; plans own work within agreed procedures.",
+      "Influence": "Team and direct users; contributes to team decisions.",
+      "Complexity": "Varied tasks, some non-routine, using standard methods.",
+      "Knowledge": "Working knowledge of methods, tools and rules of the field.",
+      "Typical roles": "Badge administrators, learning designers, HR specialists, credential operations staff",
+      "SFIA 9 (indicative)": "SFIA 3",
+      "EQF (indicative)": "EQF 4 to 5"
+    },
+    {
+      "Level": 3,
+      "Name": "Enable",
+      "Essence": "Designs and implements credential solutions for a programme or unit, selects methods, guides others and works autonomously within an agreed scope.",
+      "Autonomy": "Works autonomously within agreed scope; delegates to others.",
+      "Influence": "Programme or unit; influences peers and internal clients.",
+      "Complexity": "Complex activities across several areas; selects among methods.",
+      "Knowledge": "Broad and deep knowledge of the field; applies it to new situations.",
+      "Typical roles": "Programme leads, credential designers, platform owners, assessment designers",
+      "SFIA 9 (indicative)": "SFIA 4",
+      "EQF (indicative)": "EQF 5 to 6"
+    },
+    {
+      "Level": 4,
+      "Name": "Assure",
+      "Essence": "Gives authoritative advice and is accountable for the quality and outcomes of significant credential programmes; sets methods for others and reviews their work.",
+      "Autonomy": "Works under broad direction; accountable for significant outcomes.",
+      "Influence": "Organisation and external partners; shapes decisions in own field.",
+      "Complexity": "Broad, complex work requiring analysis, judgement and evaluation.",
+      "Knowledge": "Recognised expertise; keeps up with standards and regulation.",
+      "Typical roles": "Heads of academies, quality leads, ICoBC Lead Reviewers, credential architects",
+      "SFIA 9 (indicative)": "SFIA 5",
+      "EQF (indicative)": "EQF 6 to 7"
+    },
+    {
+      "Level": 5,
+      "Name": "Shape",
+      "Essence": "Sets direction for an organisation, sector or system; shapes policy, standards and partnerships and is accountable for strategic outcomes.",
+      "Autonomy": "Sets own direction within organisational or sector mandate.",
+      "Influence": "Organisation, sector or national level; external representation.",
+      "Complexity": "Strategic, ambiguous, multi-stakeholder problems.",
+      "Knowledge": "Strategic understanding across fields; anticipates change.",
+      "Typical roles": "CHROs and CLOs, ministry and agency leads, association boards, standards chairs",
+      "SFIA 9 (indicative)": "SFIA 6 to 7",
+      "EQF (indicative)": "EQF 7 to 8"
+    }
+  ],
+  "stages": [
+    {
+      "Stage": "K",
+      "Name": "Knowledge",
+      "Definition": "Understanding of concepts, rules, standards and the reasons behind them. The person can explain and recognise.",
+      "Question": "Do they understand it?",
+      "Typical evidence": "Knowledge check with feedback, short written explanation, concept map, scenario questions.",
+      "Assessment conditions": "Online, open or closed book; can be automated.",
+      "Credential": "Knowledge badge",
+      "Validity": "Optional expiry; review when the topic changes (regulation topics: 24 months).",
+      "Education mapping": "EQF knowledge descriptor; Bloom: remember, understand; Miller: knows.",
+      "Corporate mapping": "Awareness and onboarding; Kirkpatrick level 2 (learning).",
+      "Can a course award it?": "Yes"
+    },
+    {
+      "Stage": "A",
+      "Name": "Ability",
+      "Definition": "Practising a capability on realistic tasks, using the knowledge gained, in a controlled setting such as a case, simulation, sandbox or project.",
+      "Question": "Can they do it?",
+      "Typical evidence": "Work product judged against a rubric, lab record, practical demonstration, peer-reviewed artefact.",
+      "Assessment conditions": "Assessed task with rubric; human judgement for open tasks.",
+      "Credential": "Ability badge",
+      "Validity": "No fixed expiry; tied to the version of the standard or method practised.",
+      "Education mapping": "EQF skills descriptor; Bloom: apply, analyse, create; Miller: knows how, shows how.",
+      "Corporate mapping": "Skills practice, labs and projects; Kirkpatrick level 2 (skill) and readiness for level 3.",
+      "Can a course award it?": "Yes"
+    },
+    {
+      "Stage": "C",
+      "Name": "Competency",
+      "Definition": "Applying the capability in a real context, usually work, with the responsibility of the stated level, over time and with observable effect.",
+      "Question": "Do they do it, in their role, to the standard?",
+      "Typical evidence": "Portfolio from live work, attestation by manager, peer or client, professional discussion, observed performance, outcome data.",
+      "Assessment conditions": "Work-based validation by a trained assessor; never by course completion alone.",
+      "Credential": "Competency credential",
+      "Validity": "Time-limited (default 3 years); renewal through evidence of continued practice.",
+      "Education mapping": "EQF responsibility and autonomy descriptor; Miller: does; work-based learning, professional registration.",
+      "Corporate mapping": "Role readiness and performance; Kirkpatrick levels 3 (behaviour) and 4 (results).",
+      "Can a course award it?": "No. Only through V-series validations."
+    }
+  ],
+  "skills": [
+    {
+      "code": "STRV",
+      "name": "Credential strategy and value",
+      "pillar": "Value",
+      "description": "Defining why an organisation issues, accepts or funds credentials, what value they create for earners, issuers and verifiers, and how a credential portfolio supports organisational goals.",
+      "scope": "Value proposition; business case; portfolio architecture; funding and pricing models; success measures; make or partner decisions.",
+      "minLevel": 3,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L3": "Builds the business case for a credential programme in one unit; defines the value for earners, issuer and verifiers; proposes success measures.",
+        "L4": "Designs the credential portfolio for an organisation or major programme and aligns it with talent or academic strategy; advises leaders on investment and trade-offs.",
+        "L5": "Sets organisational or sector strategy for recognition; positions credentials as shared infrastructure; secures sponsorship and accountability for long-term value."
+      }
+    },
+    {
+      "code": "ECOS",
+      "name": "Ecosystem and recognition partnerships",
+      "pillar": "Value",
+      "description": "Building the relationships that make credentials count beyond the issuer: employers, education providers, professional bodies, public agencies and other verifiers.",
+      "scope": "Verifier engagement; co-design with employers; recognition agreements; consortia; cross-border recognition.",
+      "minLevel": 2,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L2": "Identifies relevant verifiers and keeps contact records; supports partner onboarding with standard materials.",
+        "L3": "Engages verifiers to agree how specific credentials are recognised; runs pilot recognition arrangements.",
+        "L4": "Negotiates recognition agreements across organisations or sectors; resolves differing quality expectations between partners.",
+        "L5": "Shapes national, sector or cross-border recognition ecosystems; leads consortia and influences policy for mutual recognition."
+      }
+    },
+    {
+      "code": "POLR",
+      "name": "Policy and regulatory navigation",
+      "pillar": "Value",
+      "description": "Understanding and applying the rules that shape credentials: qualification frameworks, micro-credential policy, digital identity law, data protection, AI regulation and professional regulation.",
+      "scope": "EU micro-credential Recommendation; eIDAS 2.0; EU AI Act; GDPR; accessibility law; national and professional frameworks; consultations.",
+      "minLevel": 2,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L2": "Identifies which rules apply to a credentialing activity and follows the related procedures; escalates questions.",
+        "L3": "Interprets policy requirements for a programme and translates them into design and process requirements.",
+        "L4": "Advises the organisation on regulatory obligations and options; monitors changes and assesses their effect on the credential portfolio.",
+        "L5": "Contributes to policy development at sector, national or European level; represents the organisation in consultations and standard setting."
+      }
+    },
+    {
+      "code": "CRDS",
+      "name": "Credential design",
+      "pillar": "Rigor",
+      "description": "Specifying what a credential certifies and how: claim, outcomes, criteria, evidence, level, metadata, granularity, visual design and how credentials stack into pathways.",
+      "scope": "Outcomes and criteria; metadata; naming; granularity; stacking and pathways; visual systems.",
+      "minLevel": 1,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L1": "Describes the parts of a credential and recognises well and poorly specified examples.",
+        "L2": "Drafts credential specifications from templates, including outcomes, criteria and required metadata.",
+        "L3": "Designs credentials and pathways for a programme; decides granularity, stacking rules and alignment targets; guides others in using templates.",
+        "L4": "Sets credential design standards for an organisation; reviews designs for consistency, meaning and portability.",
+        "L5": "Shapes design conventions across a sector or network so that credentials from different issuers can be compared."
+      }
+    },
+    {
+      "code": "ASMT",
+      "name": "Assessment and evidence",
+      "pillar": "Rigor",
+      "description": "Deciding what evidence proves the claim a credential makes, and collecting and judging it validly, reliably, fairly and securely, including recognition of prior learning and workplace assessment.",
+      "scope": "Assessment methods; rubrics; moderation; recognition of prior learning; workplace assessment; assessment integrity including generative AI.",
+      "minLevel": 1,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L1": "Explains why assessment matters for trust; follows assessment instructions as candidate or assessor support.",
+        "L2": "Applies given rubrics and assessment procedures consistently; records decisions and evidence.",
+        "L3": "Designs assessments and rubrics for credentials; plans moderation; designs recognition of prior learning routes for a programme.",
+        "L4": "Leads assessment strategy for significant programmes; designs workplace-based competency assessment; manages integrity risks including generative AI.",
+        "L5": "Sets assessment policy and standards across an organisation or sector; leads calibration and research on assessment validity."
+      }
+    },
+    {
+      "code": "SKTX",
+      "name": "Skills taxonomies and alignment",
+      "pillar": "Rigor",
+      "description": "Describing skills and levels in shared language and aligning credentials to frameworks such as ESCO, SFIA, the EQF and national frameworks, so that issuers, earners and employers read them the same way.",
+      "scope": "Taxonomies and frameworks; skill statements; levelling; alignment metadata; crosswalks; taxonomy governance and versioning.",
+      "minLevel": 1,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L1": "Explains what skills frameworks and levels are and finds a skill and its descriptor in a common framework.",
+        "L2": "Tags credentials with skills and levels from agreed frameworks, following guidance.",
+        "L3": "Selects frameworks for a programme; builds alignments and checks their quality.",
+        "L4": "Creates crosswalks between frameworks; governs an organisational skills taxonomy and its versioning.",
+        "L5": "Shapes sector or national skills language; leads multi-stakeholder agreement on frameworks and their maintenance."
+      }
+    },
+    {
+      "code": "QUAL",
+      "name": "Quality assurance and accreditation",
+      "pillar": "Rigor",
+      "description": "Making the quality of credentials visible and dependable: internal quality cycles, external review, issuer accreditation and quality labels such as the ICoBC Global Quality Seal and its VRITE criteria.",
+      "scope": "Internal quality assurance; self-assessment; external review; issuer accreditation; quality labels; reviewer competence and independence.",
+      "minLevel": 1,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L1": "Explains why quality assurance matters for credential trust and recognises common quality signals.",
+        "L2": "Follows quality procedures; collects and organises quality evidence.",
+        "L3": "Runs self-assessment against a quality framework; prepares for external review; implements improvements.",
+        "L4": "Designs and leads internal quality assurance; conducts independent reviews of other issuers.",
+        "L5": "Sets quality standards and review schemes for a sector or network; governs reviewer competence and independence."
+      }
+    },
+    {
+      "code": "IMPT",
+      "name": "Impact and evidence of value",
+      "pillar": "Impact",
+      "description": "Showing what credentials change for earners, organisations and labour markets, using sound evaluation methods and data while respecting privacy.",
+      "scope": "Logic models; indicators; data collection; labour-market data; evaluation methods; reporting.",
+      "minLevel": 2,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L2": "Collects defined programme data and reports standard indicators.",
+        "L3": "Designs an evaluation for a credential programme; selects indicators and data sources; interprets results.",
+        "L4": "Leads impact assessment that combines data sources, including labour-market data; advises decisions and investments based on findings.",
+        "L5": "Sets measurement frameworks across an organisation or sector; commissions research; uses evidence to shape policy."
+      }
+    },
+    {
+      "code": "TALN",
+      "name": "Skills-based talent practice",
+      "pillar": "Impact",
+      "description": "Using credentials and skills data in hiring, internal mobility, career development and workforce planning.",
+      "scope": "Skills-based job design; selection; internal mobility; development conversations; workforce planning; fairness.",
+      "minLevel": 2,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L2": "Reads and verifies credentials in recruiting or development processes; records skills data correctly.",
+        "L3": "Designs processes that use credentials for selection, mobility or development in a unit and checks them for fairness.",
+        "L4": "Leads skills-based practice across an organisation; connects credentials with job architecture and workforce planning.",
+        "L5": "Sets talent strategy based on skills; shapes employer practice in a sector."
+      }
+    },
+    {
+      "code": "ADPT",
+      "name": "Adoption and change leadership",
+      "pillar": "Impact",
+      "description": "Getting credentials used and valued: sponsorship, champions, communication, governance, and the move from pilot to routine operation.",
+      "scope": "Stakeholder mapping; champion networks; communication; objections; governance; scaling.",
+      "minLevel": 2,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L2": "Supports adoption activities; produces communication materials; gathers feedback.",
+        "L3": "Plans and runs adoption for a programme; builds a champion network; manages stakeholder concerns.",
+        "L4": "Leads organisation-wide change and governance for credentialing; scales programmes from pilot to routine.",
+        "L5": "Leads change across organisations or a sector; builds coalitions and sustains commitment."
+      }
+    },
+    {
+      "code": "STND",
+      "name": "Standards and interoperability",
+      "pillar": "Trustworthiness",
+      "description": "Using open standards so credentials can be issued, stored, shared and verified across systems: Open Badges, Comprehensive Learner Record, W3C Verifiable Credentials, the European Learning Model and related protocols.",
+      "scope": "Data models; proofs; status and revocation; conformance; mapping between models; protocols.",
+      "minLevel": 1,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L1": "Explains what open standards do for portability and recognises standard-conformant credentials.",
+        "L2": "Issues and verifies standard credentials with existing tools; checks conformance with test tools.",
+        "L3": "Selects standards and profiles for a programme; maps data models; resolves interoperability issues.",
+        "L4": "Designs interoperable credential architectures across systems and organisations; advises on standards strategy.",
+        "L5": "Contributes to standards development; leads interoperability programmes across sectors or countries."
+      }
+    },
+    {
+      "code": "IDWL",
+      "name": "Digital identity and wallets",
+      "pillar": "Trustworthiness",
+      "description": "Connecting credentials to identity and wallets: eIDAS 2.0, the EUDI Wallet, trust frameworks, relying parties, decentralised identifiers and the identity of agents acting for people or organisations.",
+      "scope": "Wallet roles; attestations; trust lists and registration; relying parties; holder binding; business wallets; agent identity.",
+      "minLevel": 1,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L1": "Explains what a digital identity wallet is, how it differs from an account or a PDF, and what control it gives the holder.",
+        "L2": "Supports wallet-based issuing or verification using defined procedures; helps users with wallet tasks.",
+        "L3": "Plans wallet use cases for a programme; specifies requirements as issuer or relying party.",
+        "L4": "Designs wallet integration and trust arrangements; advises on relying party registration, trust lists and assurance levels.",
+        "L5": "Shapes identity and wallet strategy at sector or national level; represents education or employment needs in identity governance."
+      }
+    },
+    {
+      "code": "SECP",
+      "name": "Security, privacy and data protection",
+      "pillar": "Trustworthiness",
+      "description": "Protecting credential data and the people it describes: data protection law, privacy by design, selective disclosure, revocation and status, key management and fraud prevention.",
+      "scope": "GDPR duties; DPIA; minimisation; selective disclosure; status and revocation; keys; fraud and credential mills; long-term validity.",
+      "minLevel": 1,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L1": "Explains basic data protection duties and privacy risks when issuing or sharing credentials.",
+        "L2": "Applies security and privacy procedures in credential operations; handles revocation and data requests.",
+        "L3": "Performs privacy and security assessments for a programme; specifies controls.",
+        "L4": "Leads threat modelling and fraud prevention for credential systems; advises on key management and long-term validity.",
+        "L5": "Sets security and privacy policy for credential ecosystems; leads cross-organisation incident and trust governance."
+      }
+    },
+    {
+      "code": "PLAT",
+      "name": "Platforms and integration",
+      "pillar": "Trustworthiness",
+      "description": "Selecting, integrating and running the systems that issue, manage and display credentials, while keeping data portable.",
+      "scope": "Requirements; platform selection; LMS, HR and student system integration; operations; exit and portability.",
+      "minLevel": 2,
+      "maxLevel": 4,
+      "levelDescriptors": {
+        "L2": "Operates a credential platform: issues, updates and revokes credentials; resolves routine issues.",
+        "L3": "Selects platforms against requirements; integrates them with learning, HR and student systems; plans exit and data portability.",
+        "L4": "Designs the credential technology landscape for an organisation; governs suppliers and service levels."
+      }
+    },
+    {
+      "code": "AIRC",
+      "name": "Trustworthy AI in recognition",
+      "pillar": "Trustworthiness",
+      "description": "Using and governing AI in credentialing: AI literacy, AI-assisted design and assessment, skills inference and AI agents that hold or present credentials, with human oversight and in line with the EU AI Act.",
+      "scope": "AI literacy; AI-assisted drafting; AI in assessment; skills inference; agent delegation; oversight; regulatory classification.",
+      "minLevel": 1,
+      "maxLevel": 5,
+      "levelDescriptors": {
+        "L1": "Explains how AI is used in learning and recognition, its limits, and the user's own responsibilities.",
+        "L2": "Uses AI tools for defined credentialing tasks with human review and documentation.",
+        "L3": "Designs AI-supported workflows for a programme; sets review points and documents risks.",
+        "L4": "Governs AI use in assessment and skills inference; assesses regulatory classification; designs oversight and delegation controls for agents.",
+        "L5": "Sets organisational or sector policy for AI in recognition; contributes to standards and regulation."
+      }
+    },
+    {
+      "code": "EXPR",
+      "name": "Earner experience and agency",
+      "pillar": "Experience",
+      "description": "Designing credentials around the people who earn them: claiming, storing, sharing, privacy choices, motivation, and using credentials in career and learning decisions.",
+      "scope": "Earner journeys; claiming and sharing; wallets and backpacks; privacy choices; support; career use.",
+      "minLevel": 1,
+      "maxLevel": 4,
+      "levelDescriptors": {
+        "L1": "Claims, stores and shares own credentials and makes informed privacy choices.",
+        "L2": "Supports earners in claiming and sharing; collects their feedback.",
+        "L3": "Designs earner journeys and support for a programme; improves claim and share rates using evidence.",
+        "L4": "Sets earner experience standards across an organisation; integrates credentials into career services and learner records."
+      }
+    },
+    {
+      "code": "INCL",
+      "name": "Inclusion and accessibility",
+      "pillar": "Experience",
+      "description": "Making recognition open to all: accessible credentials and platforms, Universal Design for Learning, language, recognition of non-formal learning, and fair outcomes across groups.",
+      "scope": "Accessibility rules; UDL; plain language; multilingual credentials; non-formal learning; equity monitoring.",
+      "minLevel": 1,
+      "maxLevel": 4,
+      "levelDescriptors": {
+        "L1": "Explains accessibility and inclusion basics for credentials and spots common barriers.",
+        "L2": "Applies accessibility checklists to credentials and learning materials.",
+        "L3": "Designs inclusive credential programmes; plans recognition routes for non-formal learning and under-represented groups.",
+        "L4": "Leads inclusion strategy for credentialing; monitors equity of outcomes and acts on gaps."
+      }
+    }
+  ]
+}
